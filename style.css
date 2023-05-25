@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Rajdhani:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/img/suprabg.jpg) center center no-repeat;
+  background-size: cover;
+  height: 88vh;
+  backdrop-filter: blur(3px);
+}
+
+/*navbar*/
+.navbar {
+  background-color: #171717;
+  align-items: center;
+  justify-content: space-around;
+  height: 12vh;
+  display: flex;
+}
+
+.navbartext a {
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  text-align: right;
+  text-decoration: none;
+  font-family: rajdhani;
+  margin-right: 5vh;
+  font-size: 1.7rem;
+  text-transform: none;
+  color: aliceblue;
+  margin-top: 2vh;
+}
+
+.navbartext a:hover {
+  background-color: #4e4e4e;
+}
+
+.navbarlogo {
+  align-items: center;
+  display: flex;
+}
+
+.navbarlogo img {
+  height: 93px;
+  text-align: left;
+}
+
+/*card*/
+
+.cardsprincipal {
+  display: flex;
+}
+
+.card1 {
+  transition: 0.3s;
+  font-family: Rajdhani;
+  background-color: #888888;
+  opacity: 0.6;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 5vh;
+  width: 90vh;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.card1:hover {
+  background-color: #999797;
+}
+
+.card1 h1 {
+  font-size: 3rem;
+}
+
+.cardporche {
+  margin-left: 6vh;
+  margin-top: 3vh;
+}
+
+.cardporche img {
+  padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+  border-radius: 10px;
+  border-width: 3vh;
+  background-color: rgb(48, 48, 48);
+  height: 35vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardevo {
+  margin-left: -39vh;
+  margin-top: 45vh;
+}
+
+.cardevo img {
+  padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+  border-radius: 10px;
+  border-width: 3vh;
+  background-color: rgb(48, 48, 48);
+  height: 35vh;
+  align-items: center;
+  flex-direction: column;
+}
